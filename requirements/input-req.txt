@@ -1,8 +1,0 @@
-This is a required field
-User should be able to enter text into this field
-Text should be a valid string consisting of English letters, numbers, underscores or hyphens
-Text length limits:
-  Max: 25 characters
-  Min: 2 characters
-User can submit this one-field form by pressing Enter
-After submitting the form, the text entered by the user is displayed on the page
