@@ -1,0 +1,12 @@
+| ID | Test Case | Preconditions | Test Data | Expected Result | Status |
+|---|---|---|---|---|---|
+| TC-001 | Verify valid English letters | Input page is opened | `Hello` | Text is accepted | |
+| TC-002 | Verify numbers | Input page is opened | `12345` | Text is accepted | |
+| TC-003 | Verify underscore | Input page is opened | `Hello_test` | Text is accepted | |
+| TC-004 | Verify hyphen | Input page is opened | `Hello-test` | Text is accepted | |
+| TC-005 | Verify minimum length | Input page is opened | `Ab` | Text is accepted | |
+| TC-006 | Verify maximum length | Input page is opened | 25 characters | Text is accepted | |
+| TC-007 | Verify value below minimum | Input page is opened | `A` | Validation error is displayed | |
+| TC-008 | Verify value above maximum | Input page is opened | 26 characters | Validation error is displayed | |
+| TC-009 | Verify empty value | Input page is opened | Empty | Validation error is displayed | |
+| TC-010 | Verify invalid characters | Input page is opened | `Hello@123` | Validation error is displayed | |
